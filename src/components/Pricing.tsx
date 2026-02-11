@@ -87,8 +87,8 @@ export default function Pricing() {
                 rel="noopener noreferrer"
                 className={`mt-8 block w-full rounded-lg px-6 py-3 text-center text-sm font-medium transition-colors ${
                   tier.highlighted
-                    ? "bg-mino-blue text-white hover:bg-mino-blue-dark"
-                    : "border-2 border-mino-blue text-mino-blue hover:bg-mino-blue hover:text-white"
+                    ? "bg-mino-cta text-white hover:bg-mino-cta-dark"
+                    : "border-2 border-mino-cta text-mino-cta hover:bg-mino-cta hover:text-white"
                 }`}
               >
                 {tier.cta}

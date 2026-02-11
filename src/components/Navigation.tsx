@@ -57,7 +57,7 @@ export default function Navigation() {
               href={siteConfig.bookingUrl}
               target="_blank"
               rel="noopener noreferrer"
-              className="rounded-lg bg-mino-blue px-5 py-2.5 text-sm font-medium text-white transition-colors hover:bg-mino-blue-dark"
+              className="rounded-lg bg-mino-cta px-5 py-2.5 text-sm font-medium text-white transition-colors hover:bg-mino-cta-dark"
             >
               Get Started
             </a>
@@ -92,7 +92,7 @@ export default function Navigation() {
               href={siteConfig.bookingUrl}
               target="_blank"
               rel="noopener noreferrer"
-              className="mt-2 block rounded-lg bg-mino-blue px-3 py-2.5 text-center text-base font-medium text-white transition-colors hover:bg-mino-blue-dark"
+              className="mt-2 block rounded-lg bg-mino-cta px-3 py-2.5 text-center text-base font-medium text-white transition-colors hover:bg-mino-cta-dark"
             >
               Get Started
             </a>

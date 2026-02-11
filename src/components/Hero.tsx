@@ -1,5 +1,4 @@
 import { heroContent, siteConfig } from "@/lib/content";
-import TrustBar from "./TrustBar";
 
 export default function Hero() {
   return (
@@ -45,7 +44,7 @@ export default function Hero() {
               href={siteConfig.bookingUrl}
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-flex items-center rounded-lg bg-mino-blue px-8 py-3.5 text-base font-medium text-white shadow-lg shadow-mino-blue/25 transition-all hover:bg-mino-blue-dark hover:shadow-xl hover:shadow-mino-blue/30"
+              className="inline-flex items-center rounded-lg bg-mino-cta px-8 py-3.5 text-base font-medium text-white shadow-lg shadow-mino-cta/25 transition-all hover:bg-mino-cta-dark hover:shadow-xl hover:shadow-mino-cta/30"
             >
               {heroContent.primaryCta}
             </a>
@@ -56,11 +55,6 @@ export default function Hero() {
               {heroContent.secondaryCta}
             </a>
           </div>
-        </div>
-
-        {/* Trust Bar */}
-        <div className="mt-16 lg:mt-20">
-          <TrustBar />
         </div>
       </div>
     </section>

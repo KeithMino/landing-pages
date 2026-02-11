@@ -41,7 +41,7 @@ export default function ContactCTA() {
             href={siteConfig.bookingUrl}
             target="_blank"
             rel="noopener noreferrer"
-            className="inline-flex items-center rounded-lg bg-mino-blue px-10 py-4 text-lg font-medium text-white shadow-lg shadow-mino-blue/30 transition-all hover:bg-mino-blue-dark hover:shadow-xl hover:shadow-mino-blue/40"
+            className="inline-flex items-center rounded-lg bg-mino-cta px-10 py-4 text-lg font-medium text-white shadow-lg shadow-mino-cta/30 transition-all hover:bg-mino-cta-dark hover:shadow-xl hover:shadow-mino-cta/40"
           >
             {ctaContent.primaryCta}
           </a>
